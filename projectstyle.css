@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+
+.header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 50px;
+}
+
+.header .navbar a {
+    color: rgb(135, 134, 134);
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header .search input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+   
+}
+
+.banner img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.category {
+    margin: 20px;
+}
+
+.category h3 {
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card p {
+    padding: 10px;
+    font-weight: bold;
+}
+.grid2{
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.card2 {
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card2 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card2 p {
+    padding: 10px;
+    font-weight: bold;
+}
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
